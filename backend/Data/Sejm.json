@@ -1,0 +1,207 @@
+[
+  {
+    "id": 1,
+    "name": "Legnica",
+    "seats": 12
+  },
+  {
+    "id": 2,
+    "name": "Wałbrzych",
+    "seats": 8
+  },
+  {
+    "id": 3,
+    "name": "Wrocław",
+    "seats": 14
+  },
+  {
+    "id": 4,
+    "name": "Bydgoszcz",
+    "seats": 12
+  },
+  {
+    "id": 5,
+    "name": "Toruń",
+    "seats": 13
+  },
+  {
+    "id": 6,
+    "name": "Lublin",
+    "seats": 15
+  },
+  {
+    "id": 7,
+    "name": "Chełm",
+    "seats": 12
+  },
+  {
+    "id": 8,
+    "name": "Zielona Góra",
+    "seats": 12
+  },
+  {
+    "id": 9,
+    "name": "Łódź",
+    "seats": 10
+  },
+  {
+    "id": 10,
+    "name": "Piotrków Trybunalski",
+    "seats": 9
+  },
+  {
+    "id": 11,
+    "name": "Sieradzki",
+    "seats": 12
+  },
+  {
+    "id": 12,
+    "name": "Chrzanów",
+    "seats": 8
+  },
+  {
+    "id": 13,
+    "name": "Kraków",
+    "seats": 14
+  },
+  {
+    "id": 14,
+    "name": "Nowy Sącz",
+    "seats": 10
+  },
+  {
+    "id": 15,
+    "name": "Tarnów",
+    "seats": 9
+  },
+  {
+    "id": 16,
+    "name": "Płock",
+    "seats": 10
+  },
+  {
+    "id": 17,
+    "name": "Radom",
+    "seats": 9
+  },
+  {
+    "id": 18,
+    "name": "Siedlce",
+    "seats": 12
+  },
+  {
+    "id": 19,
+    "name": "Warszawa",
+    "seats": 20
+  },
+  {
+    "id": 20,
+    "name": "Grodzisk Mazowiecki",
+    "seats": 12
+  },
+  {
+    "id": 21,
+    "name": "Opole",
+    "seats": 12
+  },
+  {
+    "id": 22,
+    "name": "Krosno",
+    "seats": 11
+  },
+  {
+    "id": 23,
+    "name": "Rzeszów",
+    "seats": 15
+  },
+  {
+    "id": 24,
+    "name": "Białystok",
+    "seats": 14
+  },
+  {
+    "id": 25,
+    "name": "Gdańsk",
+    "seats": 12
+  },
+  {
+    "id": 26,
+    "name": "Słupsk",
+    "seats": 14
+  },
+  {
+    "id": 27,
+    "name": "Bielsko-Biała",
+    "seats": 9
+  },
+  {
+    "id": 28,
+    "name": "Częstochowa",
+    "seats": 7
+  },
+  {
+    "id": 29,
+    "name": "Gliwice",
+    "seats": 9
+  },
+  {
+    "id": 30,
+    "name": "Rybnik",
+    "seats": 9
+  },
+  {
+    "id": 31,
+    "name": "Katowice",
+    "seats": 12
+  },
+  {
+    "id": 32,
+    "name": "Sosnowiec",
+    "seats": 9
+  },
+  {
+    "id": 33,
+    "name": "Kielce",
+    "seats": 16
+  },
+  {
+    "id": 34,
+    "name": "Elbląg",
+    "seats": 8
+  },
+  {
+    "id": 35,
+    "name": "Olsztyn",
+    "seats": 10
+  },
+  {
+    "id": 36,
+    "name": "Kalisz",
+    "seats": 12
+  },
+  {
+    "id": 37,
+    "name": "Konin",
+    "seats": 9
+  },
+  {
+    "id": 38,
+    "name": "Piła",
+    "seats": 9
+  },
+  {
+    "id": 39,
+    "name": "Poznań",
+    "seats": 10
+  },
+  {
+    "id": 40,
+    "name": "Koszalin",
+    "seats": 8
+  },
+  {
+    "id": 41,
+    "name": "Szczecin",
+    "seats": 12
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "name": "Bolesławiec"
+  },
+  {
+    "id": 2,
+    "name": "Jelenia Góra"
+  },
+  {
+    "id": 3,
+    "name": "Legnica"
+  },
+  {
+    "id": 4,
+    "name": "Wałbrzych"
+  },
+  {
+    "id": 5,
+    "name": "Oleśnica"
+  },
+  {
+    "id": 6,
+    "name": "Dzierżoniów"
+  },
+  {
+    "id": 7,
+    "name": "Wrocław-Wsch."
+  },
+  {
+    "id": 8,
+    "name": "Wrocław-Zach."
+  },
+  {
+    "id": 9,
+    "name": "Świecie"
+  },
+  {
+    "id": 10,
+    "name": "Inowrocław"
+  },
+  {
+    "id": 11,
+    "name": "Toruń"
+  },
+  {
+    "id": 12,
+    "name": "Grudziądz"
+  },
+  {
+    "id": 13,
+    "name": "Włocławek"
+  },
+  {
+    "id": 14,
+    "name": "Puławy"
+  },
+  {
+    "id": 15,
+    "name": "Świdnik"
+  },
+  {
+    "id": 16,
+    "name": "Lublin"
+  },
+  {
+    "id": 17,
+    "name": "Biała Podlaska"
+  },
+  {
+    "id": 18,
+    "name": "Chełm"
+  },
+  {
+    "id": 19,
+    "name": "Zamość"
+  },
+  {
+    "id": 20,
+    "name": "Zielona Góra"
+  },
+  {
+    "id": 21,
+    "name": "Gorzów Wielkopolski"
+  },
+  {
+    "id": 22,
+    "name": "Żary"
+  },
+  {
+    "id": 23,
+    "name": "Łódź-Zach."
+  },
+  {
+    "id": 24,
+    "name": "Łódź-Wsch."
+  },
+  {
+    "id": 25,
+    "name": "Kutno"
+  },
+  {
+    "id": 26,
+    "name": "Pabianice"
+  },
+  {
+    "id": 27,
+    "name": "Sieradz"
+  },
+  {
+    "id": 28,
+    "name": "Piotrków Trybunalski"
+  },
+  {
+    "id": 29,
+    "name": "Skierniewice"
+  },
+  {
+    "id": 30,
+    "name": "Chrzanów"
+  },
+  {
+    "id": 31,
+    "name": "Olkusz"
+  },
+  {
+    "id": 32,
+    "name": "Kraków-Wsch."
+  },
+  {
+    "id": 33,
+    "name": "Kraków-Zach."
+  },
+  {
+    "id": 34,
+    "name": "Wieliczka"
+  },
+  {
+    "id": 35,
+    "name": "Tarnów"
+  },
+  {
+    "id": 36,
+    "name": "Nowy Targ"
+  },
+  {
+    "id": 37,
+    "name": "Nowy Sącz"
+  },
+  {
+    "id": 38,
+    "name": "Płock"
+  },
+  {
+    "id": 39,
+    "name": "Ciechanów"
+  },
+  {
+    "id": 40,
+    "name": "Legionowo"
+  },
+  {
+    "id": 41,
+    "name": "Pruszków"
+  },
+  {
+    "id": 42,
+    "name": "Praga-Południe"
+  },
+  {
+    "id": 43,
+    "name": "Mokotów"
+  },
+  {
+    "id": 44,
+    "name": "Białołęka"
+  },
+  {
+    "id": 45,
+    "name": "Wola"
+  },
+  {
+    "id": 46,
+    "name": "Ostrołęka"
+  },
+  {
+    "id": 47,
+    "name": "Mińsk Mazowiecki"
+  },
+  {
+    "id": 48,
+    "name": "Siedlce"
+  },
+  {
+    "id": 49,
+    "name": "Kozienice"
+  },
+  {
+    "id": 50,
+    "name": "Radom"
+  },
+  {
+    "id": 51,
+    "name": "Nysa"
+  },
+  {
+    "id": 52,
+    "name": "Opole"
+  },
+  {
+    "id": 53,
+    "name": "Kędzierzyn-Koźle"
+  },
+  {
+    "id": 54,
+    "name": "Tarnobrzeg"
+  },
+  {
+    "id": 55,
+    "name": "Mielec"
+  },
+  {
+    "id": 56,
+    "name": "Rzeszów"
+  },
+  {
+    "id": 57,
+    "name": "Krosno"
+  },
+  {
+    "id": 58,
+    "name": "Przemyśl"
+  },
+  {
+    "id": 59,
+    "name": "Suwałki"
+  },
+  {
+    "id": 60,
+    "name": "Białystok"
+  },
+  {
+    "id": 61,
+    "name": "Bielsk Podlaski"
+  },
+  {
+    "id": 62,
+    "name": "Słupsk"
+  },
+  {
+    "id": 63,
+    "name": "Chojnice"
+  },
+  {
+    "id": 64,
+    "name": "Gdynia"
+  },
+  {
+    "id": 65,
+    "name": "Gdańsk"
+  },
+  {
+    "id": 66,
+    "name": "Tczew"
+  },
+  {
+    "id": 67,
+    "name": "Malbork"
+  },
+  {
+    "id": 68,
+    "name": "Myszków"
+  },
+  {
+    "id": 69,
+    "name": "Częstochowa"
+  },
+  {
+    "id": 70,
+    "name": "Gliwice"
+  },
+  {
+    "id": 71,
+    "name": "Zabrze"
+  },
+  {
+    "id": 72,
+    "name": "Jastrzębie-Zdrój"
+  },
+  {
+    "id": 73,
+    "name": "Rybnik"
+  },
+  {
+    "id": 74,
+    "name": "Ruda Śląska"
+  },
+  {
+    "id": 75,
+    "name": "Tychy"
+  },
+  {
+    "id": 76,
+    "name": "Dąbrowa Górnicza"
+  },
+  {
+    "id": 77,
+    "name": "Sosnowiec"
+  },
+  {
+    "id": 78,
+    "name": "Bielsko-Biała"
+  },
+  {
+    "id": 79,
+    "name": "Cieszyn"
+  },
+  {
+    "id": 80,
+    "name": "Katowice"
+  },
+  {
+    "id": 81,
+    "name": "Jędrzejów"
+  },
+  {
+    "id": 82,
+    "name": "Ostrowiec Świętokrzyski"
+  },
+  {
+    "id": 83,
+    "name": "Kielce"
+  },
+  {
+    "id": 84,
+    "name": "Elbląg"
+  },
+  {
+    "id": 85,
+    "name": "Ostróda"
+  },
+  {
+    "id": 86,
+    "name": "Olsztyn"
+  },
+  {
+    "id": 87,
+    "name": "Ełk"
+  },
+  {
+    "id": 88,
+    "name": "Piła"
+  },
+  {
+    "id": 89,
+    "name": "Oborniki"
+  },
+  {
+    "id": 90,
+    "name": "Luboń"
+  },
+  {
+    "id": 91,
+    "name": "Poznań"
+  },
+  {
+    "id": 92,
+    "name": "Gniezno"
+  },
+  {
+    "id": 93,
+    "name": "Konin"
+  },
+  {
+    "id": 94,
+    "name": "Leszno"
+  },
+  {
+    "id": 95,
+    "name": "Ostrów Wielkopolski"
+  },
+  {
+    "id": 96,
+    "name": "Kalisz"
+  },
+  {
+    "id": 97,
+    "name": "Szczecin"
+  },
+  {
+    "id": 98,
+    "name": "Świnoujście"
+  },
+  {
+    "id": 99,
+    "name": "Kołobrzeg"
+  },
+  {
+    "id": 100,
+    "name": "Koszalin"
+  }
+]

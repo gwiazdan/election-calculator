@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "name": "Pomorskie"
+  },
+  {
+    "id": 2,
+    "name": "Kujawsko-Pomorskie"
+  },
+  {
+    "id": 3,
+    "name": "Podlasie i Warmińsko-Mazurskie"
+  },
+  {
+    "id": 4,
+    "name": "Warszawa i okolice"
+  },
+  {
+    "id": 5,
+    "name": "Mazowsze"
+  },
+  {
+    "id": 6,
+    "name": "Łódzkie"
+  },
+  {
+    "id": 7,
+    "name": "Wielkopolskie"
+  },
+  {
+    "id": 8,
+    "name": "Lubelskie"
+  },
+  {
+    "id": 9,
+    "name": "Podkarpackie"
+  },
+  {
+    "id": 10,
+    "name": "Małopolska i Świętokrzyskie"
+  },
+  {
+    "id": 11,
+    "name": "Śląskie"
+  },
+  {
+    "id": 12,
+    "name": "Dolnośląskie i Opolskie"
+  },
+  {
+    "id": 13,
+    "name": "Zachodniopomorskie  i Lubuskie"
+  }
+]

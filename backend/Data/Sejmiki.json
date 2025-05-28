@@ -1,0 +1,597 @@
+[
+  {
+    "id": 201,
+    "name": "Wrocław",
+    "voivodeshipID": 2,
+    "number": 1,
+    "seats": 8
+  },
+  {
+    "id": 202,
+    "name": "Oława",
+    "voivodeshipID": 2,
+    "number": 2,
+    "seats": 8
+  },
+  {
+    "id": 203,
+    "name": "Wałbrzych",
+    "voivodeshipID": 2,
+    "number": 3,
+    "seats": 8
+  },
+  {
+    "id": 204,
+    "name": "Jelenia Góra",
+    "voivodeshipID": 2,
+    "number": 4,
+    "seats": 6
+  },
+  {
+    "id": 205,
+    "name": "Legnica",
+    "voivodeshipID": 2,
+    "number": 5,
+    "seats": 6
+  },
+  {
+    "id": 401,
+    "name": "Bydgoszcz",
+    "voivodeshipID": 4,
+    "number": 1,
+    "seats": 5
+  },
+  {
+    "id": 402,
+    "name": "Świecie",
+    "voivodeshipID": 4,
+    "number": 2,
+    "seats": 5
+  },
+  {
+    "id": 403,
+    "name": "Grudziądz",
+    "voivodeshipID": 4,
+    "number": 3,
+    "seats": 5
+  },
+  {
+    "id": 404,
+    "name": "Toruń",
+    "voivodeshipID": 4,
+    "number": 4,
+    "seats": 5
+  },
+  {
+    "id": 405,
+    "name": "Inowrocław",
+    "voivodeshipID": 4,
+    "number": 5,
+    "seats": 5
+  },
+  {
+    "id": 406,
+    "name": "Włocławek",
+    "voivodeshipID": 4,
+    "number": 6,
+    "seats": 5
+  },
+  {
+    "id": 601,
+    "name": "Lublin",
+    "voivodeshipID": 6,
+    "number": 1,
+    "seats": 5
+  },
+  {
+    "id": 602,
+    "name": "Puławy",
+    "voivodeshipID": 6,
+    "number": 2,
+    "seats": 10
+  },
+  {
+    "id": 603,
+    "name": "Biała Podlaska",
+    "voivodeshipID": 6,
+    "number": 3,
+    "seats": 6
+  },
+  {
+    "id": 604,
+    "name": "Chełm",
+    "voivodeshipID": 6,
+    "number": 4,
+    "seats": 6
+  },
+  {
+    "id": 605,
+    "name": "Zamość",
+    "voivodeshipID": 6,
+    "number": 5,
+    "seats": 6
+  },
+  {
+    "id": 801,
+    "name": "Gorzów Wielkopolski",
+    "voivodeshipID": 8,
+    "number": 1,
+    "seats": 7
+  },
+  {
+    "id": 802,
+    "name": "Świebodzin",
+    "voivodeshipID": 8,
+    "number": 2,
+    "seats": 6
+  },
+  {
+    "id": 803,
+    "name": "Żary",
+    "voivodeshipID": 8,
+    "number": 3,
+    "seats": 5
+  },
+  {
+    "id": 804,
+    "name": "Zielona Góra",
+    "voivodeshipID": 8,
+    "number": 4,
+    "seats": 6
+  },
+  {
+    "id": 805,
+    "name": "Nowa Sól",
+    "voivodeshipID": 8,
+    "number": 5,
+    "seats": 6
+  },
+  {
+    "id": 1001,
+    "name": "Łódź",
+    "voivodeshipID": 10,
+    "number": 1,
+    "seats": 8
+  },
+  {
+    "id": 1002,
+    "name": "Zgierz",
+    "voivodeshipID": 10,
+    "number": 2,
+    "seats": 5
+  },
+  {
+    "id": 1003,
+    "name": "Sieradz",
+    "voivodeshipID": 10,
+    "number": 3,
+    "seats": 8
+  },
+  {
+    "id": 1004,
+    "name": "Piotrków Trybunalski",
+    "voivodeshipID": 10,
+    "number": 4,
+    "seats": 7
+  },
+  {
+    "id": 1005,
+    "name": "Skierniewice",
+    "voivodeshipID": 10,
+    "number": 5,
+    "seats": 8
+  },
+  {
+    "id": 1201,
+    "name": "Chrzanów",
+    "voivodeshipID": 12,
+    "number": 1,
+    "seats": 5
+  },
+  {
+    "id": 1202,
+    "name": "Wieliczka",
+    "voivodeshipID": 12,
+    "number": 2,
+    "seats": 6
+  },
+  {
+    "id": 1203,
+    "name": "Kraków",
+    "voivodeshipID": 12,
+    "number": 3,
+    "seats": 8
+  },
+  {
+    "id": 1204,
+    "name": "Nowy Targ",
+    "voivodeshipID": 12,
+    "number": 4,
+    "seats": 7
+  },
+  {
+    "id": 1205,
+    "name": "Tarnów",
+    "voivodeshipID": 12,
+    "number": 5,
+    "seats": 7
+  },
+  {
+    "id": 1206,
+    "name": "Nowy Sącz",
+    "voivodeshipID": 12,
+    "number": 6,
+    "seats": 6
+  },
+  {
+    "id": 1401,
+    "name": "Śródmieście",
+    "voivodeshipID": 14,
+    "number": 1,
+    "seats": 5
+  },
+  {
+    "id": 1402,
+    "name": "Wola",
+    "voivodeshipID": 14,
+    "number": 2,
+    "seats": 5
+  },
+  {
+    "id": 1403,
+    "name": "Praga Północ",
+    "voivodeshipID": 14,
+    "number": 3,
+    "seats": 6
+  },
+  {
+    "id": 1404,
+    "name": "Płock",
+    "voivodeshipID": 14,
+    "number": 4,
+    "seats": 8
+  },
+  {
+    "id": 1405,
+    "name": "Radom",
+    "voivodeshipID": 14,
+    "number": 5,
+    "seats": 7
+  },
+  {
+    "id": 1406,
+    "name": "Siedlce",
+    "voivodeshipID": 14,
+    "number": 6,
+    "seats": 9
+  },
+  {
+    "id": 1407,
+    "name": "Grodzisk Mazowiecki",
+    "voivodeshipID": 14,
+    "number": 7,
+    "seats": 11
+  },
+  {
+    "id": 1601,
+    "name": "Opole",
+    "voivodeshipID": 16,
+    "number": 1,
+    "seats": 8
+  },
+  {
+    "id": 1602,
+    "name": "Kluczbork",
+    "voivodeshipID": 16,
+    "number": 2,
+    "seats": 5
+  },
+  {
+    "id": 1603,
+    "name": "Kędzierzyn-Koźle",
+    "voivodeshipID": 16,
+    "number": 3,
+    "seats": 5
+  },
+  {
+    "id": 1604,
+    "name": "Prudnik",
+    "voivodeshipID": 16,
+    "number": 4,
+    "seats": 5
+  },
+  {
+    "id": 1605,
+    "name": "Nysa",
+    "voivodeshipID": 16,
+    "number": 5,
+    "seats": 7
+  },
+  {
+    "id": 1801,
+    "name": "Rzeszów",
+    "voivodeshipID": 18,
+    "number": 1,
+    "seats": 8
+  },
+  {
+    "id": 1802,
+    "name": "Mielec",
+    "voivodeshipID": 18,
+    "number": 2,
+    "seats": 6
+  },
+  {
+    "id": 1803,
+    "name": "Tarnobrzeg",
+    "voivodeshipID": 18,
+    "number": 3,
+    "seats": 5
+  },
+  {
+    "id": 1804,
+    "name": "Przemyśl",
+    "voivodeshipID": 18,
+    "number": 4,
+    "seats": 6
+  },
+  {
+    "id": 1805,
+    "name": "Krosno",
+    "voivodeshipID": 18,
+    "number": 5,
+    "seats": 8
+  },
+  {
+    "id": 2001,
+    "name": "Białystok",
+    "voivodeshipID": 20,
+    "number": 1,
+    "seats": 7
+  },
+  {
+    "id": 2002,
+    "name": "Suwałki",
+    "voivodeshipID": 20,
+    "number": 2,
+    "seats": 8
+  },
+  {
+    "id": 2003,
+    "name": "Łomża",
+    "voivodeshipID": 20,
+    "number": 3,
+    "seats": 6
+  },
+  {
+    "id": 2004,
+    "name": "Siemiatycze",
+    "voivodeshipID": 20,
+    "number": 4,
+    "seats": 9
+  },
+  {
+    "id": 2201,
+    "name": "Słupsk",
+    "voivodeshipID": 22,
+    "number": 1,
+    "seats": 7
+  },
+  {
+    "id": 2202,
+    "name": "Gdynia",
+    "voivodeshipID": 22,
+    "number": 2,
+    "seats": 8
+  },
+  {
+    "id": 2203,
+    "name": "Gdańsk",
+    "voivodeshipID": 22,
+    "number": 3,
+    "seats": 6
+  },
+  {
+    "id": 2204,
+    "name": "Starogard Gdański",
+    "voivodeshipID": 22,
+    "number": 4,
+    "seats": 7
+  },
+  {
+    "id": 2205,
+    "name": "Tczew",
+    "voivodeshipID": 22,
+    "number": 5,
+    "seats": 5
+  },
+  {
+    "id": 2401,
+    "name": "Bielsko-Biała",
+    "voivodeshipID": 24,
+    "number": 1,
+    "seats": 7
+  },
+  {
+    "id": 2402,
+    "name": "Katowice",
+    "voivodeshipID": 24,
+    "number": 2,
+    "seats": 7
+  },
+  {
+    "id": 2403,
+    "name": "Rybnik",
+    "voivodeshipID": 24,
+    "number": 3,
+    "seats": 7
+  },
+  {
+    "id": 2404,
+    "name": "Gliwice",
+    "voivodeshipID": 24,
+    "number": 5,
+    "seats": 7
+  },
+  {
+    "id": 2405,
+    "name": "Zabrze",
+    "voivodeshipID": 24,
+    "number": 6,
+    "seats": 5
+  },
+  {
+    "id": 2406,
+    "name": "Częstochowa",
+    "voivodeshipID": 24,
+    "number": 7,
+    "seats": 5
+  },
+  {
+    "id": 2407,
+    "name": "Sosnowiec",
+    "voivodeshipID": 24,
+    "number": 8,
+    "seats": 7
+  },
+  {
+    "id": 2601,
+    "name": "Ostrowiec Świętokrzyski",
+    "voivodeshipID": 26,
+    "number": 1,
+    "seats": 7
+  },
+  {
+    "id": 2602,
+    "name": "Starachowice",
+    "voivodeshipID": 26,
+    "number": 2,
+    "seats": 6
+  },
+  {
+    "id": 2603,
+    "name": "Kielce",
+    "voivodeshipID": 26,
+    "number": 3,
+    "seats": 10
+  },
+  {
+    "id": 2604,
+    "name": "Busko-Zdrój",
+    "voivodeshipID": 26,
+    "number": 4,
+    "seats": 7
+  },
+  {
+    "id": 2801,
+    "name": "Olsztyn",
+    "voivodeshipID": 28,
+    "number": 1,
+    "seats": 6
+  },
+  {
+    "id": 2802,
+    "name": "Ostróda",
+    "voivodeshipID": 28,
+    "number": 2,
+    "seats": 7
+  },
+  {
+    "id": 2803,
+    "name": "Elbląg",
+    "voivodeshipID": 28,
+    "number": 3,
+    "seats": 6
+  },
+  {
+    "id": 2804,
+    "name": "Ełk",
+    "voivodeshipID": 28,
+    "number": 4,
+    "seats": 5
+  },
+  {
+    "id": 2805,
+    "name": "Giżycko",
+    "voivodeshipID": 28,
+    "number": 5,
+    "seats": 6
+  },
+  {
+    "id": 3001,
+    "name": "Poznań",
+    "voivodeshipID": 30,
+    "number": 1,
+    "seats": 5
+  },
+  {
+    "id": 3002,
+    "name": "Piła",
+    "voivodeshipID": 30,
+    "number": 2,
+    "seats": 7
+  },
+  {
+    "id": 3003,
+    "name": "Gniezno",
+    "voivodeshipID": 30,
+    "number": 3,
+    "seats": 8
+  },
+  {
+    "id": 3004,
+    "name": "Konin",
+    "voivodeshipID": 30,
+    "number": 4,
+    "seats": 5
+  },
+  {
+    "id": 3005,
+    "name": "Kalisz",
+    "voivodeshipID": 30,
+    "number": 5,
+    "seats": 7
+  },
+  {
+    "id": 3006,
+    "name": "Leszno",
+    "voivodeshipID": 30,
+    "number": 6,
+    "seats": 7
+  },
+  {
+    "id": 3201,
+    "name": "Szczecin",
+    "voivodeshipID": 32,
+    "number": 1,
+    "seats": 8
+  },
+  {
+    "id": 3202,
+    "name": "Świnoujście",
+    "voivodeshipID": 32,
+    "number": 2,
+    "seats": 5
+  },
+  {
+    "id": 3203,
+    "name": "Kołobrzeg",
+    "voivodeshipID": 32,
+    "number": 3,
+    "seats": 5
+  },
+  {
+    "id": 3204,
+    "name": "Koszalin",
+    "voivodeshipID": 32,
+    "number": 4,
+    "seats": 6
+  },
+  {
+    "id": 3205,
+    "name": "Stargard",
+    "voivodeshipID": 32,
+    "number": 5,
+    "seats": 6
+  }
+]
