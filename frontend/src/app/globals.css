@@ -14,6 +14,11 @@
   --font-mono: var(--font-geist-mono);
 }
 
+.bg-primary {
+  background-color: var(--primary);
+}
+
+
 body {
   background: var(--background);
   color: var(--foreground);
