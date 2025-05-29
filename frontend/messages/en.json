@@ -1,0 +1,14 @@
+{
+    "SideNavbar": {
+        "inputPanel": "Input panel",
+        "municipalities": "Municipalities",
+        "counties": "Counties",
+        "voivodeships": "Voivodeships",
+        "sejm": "Sejm",
+        "senate": "Senate",
+        "sejmiks": "Regional assemblies",
+        "euroElections": "European elections",
+        "about": "About",
+        "faq": "FAQ"
+    }
+}

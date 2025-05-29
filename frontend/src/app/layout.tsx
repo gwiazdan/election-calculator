@@ -4,7 +4,7 @@ import './globals.css';
 import Navbar from '../components/main/SideNavbar';
 import TopNavbar from '../components/main/TopNavbar';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import {getLocale} from 'next-intl/server';
 
 const geistSans = Geist({
     variable: '--font-geist-sans',
@@ -23,11 +23,11 @@ export const metadata: Metadata = {
 };
 
 export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-    const messages = await getMessages();
+    const locale = await getLocale();
 
     return (
-        <NextIntlClientProvider messages={messages}>
-            <html lang="en">
+        <NextIntlClientProvider>
+            <html lang={locale}>
                 <head>
                     <link rel="icon" type="image/svg+xml" href="/appLogo.svg" />
                 </head>

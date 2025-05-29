@@ -1,20 +1,24 @@
 'use client';
+import { useTranslations } from 'next-intl';
 import React from 'react';
 
-const navItems = [
-    { label: 'Panel sterowania', href: '/input-panel' },
-    { label: 'Gminy', href: '/municipalities' },
-    { label: 'Powiaty', href: '/counties' },
-    { label: 'Województwa', href: '/voivodeships' },
-    { label: 'Sejm', href: '/sejm' },
-    { label: 'Senat', href: '/senate' },
-    { label: 'Sejmiki', href: '/sejmiks' },
-    { label: 'Eurowybory', href: '/euro-elections' },
-    { label: 'O mnie', href: '/about' },
-    { label: 'FAQ', href: '/faq' },
-];
+
 
 export default function Navbar() {
+	const t = useTranslations('SideNavbar');
+	const navItems = [
+        { label: t('inputPanel'), href: '/input-panel' },
+        { label: t('municipalities'), href: '/municipalities' },
+        { label: t('counties'), href: '/counties' },
+        { label: t('voivodeships'), href: '/voivodeships' },
+        { label: t('sejm'), href: '/sejm' },
+        { label: t('senate'), href: '/senate' },
+        { label: t('sejmiks'), href: '/sejmiks' },
+        { label: t('euroElections'), href: '/euro-elections' },
+        { label: t('about'), href: '/about' },
+        { label: t('faq'), href: '/faq' },
+    ];
+
     return (
         <nav className="fixed left-0 top-0 md:top-[60px] h-screen w-[300px] bg-neutral-900 flex flex-col p-8 shadow-lg z-[100]">
             <ul className="list-none p-0 m-0 flex-1">
