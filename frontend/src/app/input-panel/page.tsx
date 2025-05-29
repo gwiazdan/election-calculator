@@ -1,3 +1,3 @@
 export default function InputPanel() {
-  return <div/>;
+    return <div />;
 }

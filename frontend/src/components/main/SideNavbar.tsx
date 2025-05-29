@@ -6,7 +6,7 @@ const navItems = [
     { label: 'Gminy', href: '/municipalities' },
     { label: 'Powiaty', href: '/counties' },
     { label: 'Województwa', href: '/voivodeships' },
-    { label: 'Sejm', href: '/sejm'},
+    { label: 'Sejm', href: '/sejm' },
     { label: 'Senat', href: '/senate' },
     { label: 'Sejmiki', href: '/sejmiks' },
     { label: 'Eurowybory', href: '/euro-elections' },
@@ -20,7 +20,10 @@ export default function Navbar() {
             <ul className="list-none p-0 m-0 flex-1">
                 {navItems.map((item) => (
                     <li key={item.href} className="mb-5">
-                        <a href={item.href} className="block text-white no-underline text-base px-4 py-2 rounded transition-colors duration-200 hover:bg-neutral-800">
+                        <a
+                            href={item.href}
+                            className="block text-white no-underline text-base px-4 py-2 rounded transition-colors duration-200 hover:bg-neutral-800"
+                        >
                             {item.label}
                         </a>
                     </li>
