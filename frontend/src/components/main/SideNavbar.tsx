@@ -20,7 +20,7 @@ export default function Navbar() {
         {
             label: t('inputPanel'),
             href: '/input-panel',
-            icon: <SlidersIcon className={iconClasses} />,
+            icon: <SlidersIcon className={iconClasses.concat('w-6 h-6')} />,
         },
         {
             label: t('municipalities'),
@@ -41,7 +41,7 @@ export default function Navbar() {
             href: '/euro-elections',
             icon: <EuroparlamentIcon className={iconClasses} />,
         },
-        { label: t('info'), href: '/info', icon: <InformationIcon className={iconClasses} /> },
+        { label: t('info'), href: '/info', icon: <InformationIcon className={iconClasses.concat('w-6 h-6')} /> },
     ];
 
     return (
