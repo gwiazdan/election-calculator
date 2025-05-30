@@ -12,7 +12,7 @@ import SejmikIcon from '@/navbar_icons/sejmik.svg';
 import EuroparlamentIcon from '@/navbar_icons/eu.svg';
 import '@/components/main/navbar.css';
 
-const iconClasses = 'inline-block w-8 h-8 mr-2';
+const iconClasses = 'inline-block w-8 h-8';
 
 export default function Navbar() {
     const t = useTranslations('SideNavbar');
