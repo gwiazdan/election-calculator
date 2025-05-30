@@ -45,13 +45,13 @@ export default function Navbar() {
     ];
 
     return (
-        <nav className="fixed left-0 top-0 h-screen md:w-[140px] w-[100px] bg-neutral-900 flex flex-col p-6 shadow-lg z-[100]">
+        <nav className="fixed left-0 top-0 h-screen md:w-[120px] w-[100px] bg-neutral-900 flex flex-col p-4 shadow-lg z-[100]">
             <ul className="list-none p-0 m-0 flex-1">
                 {navItems.map((item) => (
                     <li key={item.href} className="mb-4">
                         <a
                             href={item.href}
-                            className="flex flex-col items-center justify-center gap-2 no-underline text-base px-2 py-1 rounded transition-colors duration-200 hover:bg-neutral-800"
+                            className="flex flex-col items-center justify-center gap-2 no-underline py-1 rounded transition-colors duration-200 hover:bg-neutral-800"
                         >
                             <span className="block">{item.icon}</span>
                             <span className="hidden lg:block text-center lg:text-base sb-label">

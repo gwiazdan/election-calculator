@@ -33,7 +33,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
                 </head>
                 <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
 					<Navbar />
-					<div className='md:ml-[140px] ml-[100px]'>
+					<div className='md:ml-[120px] ml-[100px]'>
 						<TopNavbar />
 						{children}
 					</div>
