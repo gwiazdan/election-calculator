@@ -1,14 +1,13 @@
 {
-	"SideNavbar": {
-		"inputPanel": "Panel sterowania",
-		"municipalities": "Gminy",
-		"counties": "Powiaty",
-		"voivodeships": "Województwa",
-		"sejm": "Sejm",
-		"senate": "Senat",
-		"sejmiks": "Sejmiki",
-		"euroElections": "Wybory europejskie",
-		"about": "O mnie",
-		"faq": "FAQ"
-	}
+    "SideNavbar": {
+        "inputPanel": "Panel sterowania",
+        "municipalities": "Gminy",
+        "counties": "Powiaty",
+        "voivodeships": "Województwa",
+        "sejm": "Sejm",
+        "senate": "Senat",
+        "sejmiks": "Sejmiki",
+        "euroElections": "Wybory europejskie",
+        "info": "Informacje"
+    }
 }

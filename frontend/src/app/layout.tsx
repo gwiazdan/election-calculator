@@ -4,7 +4,7 @@ import './globals.css';
 import Navbar from '../components/main/SideNavbar';
 import TopNavbar from '../components/main/TopNavbar';
 import { NextIntlClientProvider } from 'next-intl';
-import {getLocale} from 'next-intl/server';
+import { getLocale } from 'next-intl/server';
 
 const geistSans = Geist({
     variable: '--font-geist-sans',
@@ -32,9 +32,11 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
                     <link rel="icon" type="image/svg+xml" href="/appLogo.svg" />
                 </head>
                 <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-                    <TopNavbar />
-                    <Navbar />
-                    {children}
+					<Navbar />
+					<div className='md:ml-[140px] ml-[100px]'>
+						<TopNavbar />
+						{children}
+					</div>
                 </body>
             </html>
         </NextIntlClientProvider>
