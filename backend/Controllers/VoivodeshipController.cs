@@ -15,8 +15,8 @@ namespace election_calculator_backend.Controllers
         );
 
         [HttpGet("load")]
-        public async Task<ActionResult<List<object>>> GetVoivodeshipSummaries(){
-
+        public async Task<ActionResult<List<object>>> GetVoivodeshipSummaries()
+        {
             var voivodeshipsJson = await System.IO.File.ReadAllTextAsync(
                 Path.Combine(Directory.GetCurrentDirectory(), "Data", "Voivodeships.json")
             );
@@ -24,7 +24,6 @@ namespace election_calculator_backend.Controllers
                 voivodeshipsJson,
                 new JsonSerializerOptions { PropertyNameCaseInsensitive = true }
             );
-
 
             var countiesJson = await System.IO.File.ReadAllTextAsync(
                 Path.Combine(Directory.GetCurrentDirectory(), "Data", "Counties.json")
@@ -48,8 +47,12 @@ namespace election_calculator_backend.Controllers
             var result = voivodeships
                 .Select(voivodeship =>
                 {
-                    var relatedCounties = counties.Where(c => c.VoivodeshipID == voivodeship.Id).ToList();
-                    var relatedMunicipalities = municipalities.Where(m => relatedCounties.Any(c => c.Id == m.CountyID));
+                    var relatedCounties = counties
+                        .Where(c => c.VoivodeshipID == voivodeship.Id)
+                        .ToList();
+                    var relatedMunicipalities = municipalities.Where(m =>
+                        relatedCounties.Any(c => c.Id == m.CountyID)
+                    );
 
                     return new
                     {

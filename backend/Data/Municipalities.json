@@ -34019,7 +34019,7 @@
     },
     {
         "id":26201,
-        "name":"Legnica",
+        "name": "Legnica",
         "numberOfVotes":41760,
         "votesForNL":1701,
         "votesForKKP":2207,
@@ -34027,11 +34027,12 @@
         "votesForKonfederacja":5284,
         "votesForPIS":11817,
         "votesForKO":15727,
-        "votesForRazem":1791
+        "votesForRazem":1791,
+		"countyID": 26200
     },
     {
         "id":26401,
-        "name":"Wrocław",
+        "name": "Wrocław",
         "numberOfVotes":371481,
         "votesForNL":24314,
         "votesForKKP":14566,
@@ -34039,11 +34040,12 @@
         "votesForKonfederacja":41274,
         "votesForPIS":70093,
         "votesForKO":147372,
-        "votesForRazem":39101
+        "votesForRazem":39101,
+		"countyID": 26400
     },
     {
         "id":26501,
-        "name":"Wałbrzych",
+        "name": "Wałbrzych",
         "numberOfVotes":43027,
         "votesForNL":1848,
         "votesForKKP":2163,
@@ -34051,11 +34053,12 @@
         "votesForKonfederacja":4562,
         "votesForPIS":10183,
         "votesForKO":19621,
-        "votesForRazem":1549
+        "votesForRazem":1549,
+		"countyID": 26500
     },
     {
         "id":46101,
-        "name":"Bydgoszcz",
+        "name": "Bydgoszcz",
         "numberOfVotes":166301,
         "votesForNL":8811,
         "votesForKKP":6445,
@@ -34063,11 +34066,12 @@
         "votesForKonfederacja":18458,
         "votesForPIS":36077,
         "votesForKO":72955,
-        "votesForRazem":8804
+        "votesForRazem":8804,
+		"countyID": 46100
     },
     {
         "id":46201,
-        "name":"Grudziądz",
+        "name": "Grudziądz",
         "numberOfVotes":38843,
         "votesForNL":1931,
         "votesForKKP":1610,
@@ -34075,11 +34079,12 @@
         "votesForKonfederacja":4899,
         "votesForPIS":8800,
         "votesForKO":17050,
-        "votesForRazem":1542
+        "votesForRazem":1542,
+		"countyID": 46200
     },
     {
         "id":46301,
-        "name":"Toruń",
+        "name": "Toruń",
         "numberOfVotes":101046,
         "votesForNL":5486,
         "votesForKKP":3550,
@@ -34087,11 +34092,12 @@
         "votesForKonfederacja":12488,
         "votesForPIS":21667,
         "votesForKO":42435,
-        "votesForRazem":7171
+        "votesForRazem":7171,
+		"countyID": 46300
     },
     {
         "id":46401,
-        "name":"Włocławek",
+        "name": "Włocławek",
         "numberOfVotes":47101,
         "votesForNL":2584,
         "votesForKKP":2139,
@@ -34099,7 +34105,8 @@
         "votesForKonfederacja":4831,
         "votesForPIS":11700,
         "votesForKO":20700,
-        "votesForRazem":1754
+        "votesForRazem":1754,
+		"countyID": 46400
     },
     {
         "id":66101,
@@ -34111,11 +34118,12 @@
         "votesForKonfederacja":3947,
         "votesForPIS":9371,
         "votesForKO":7404,
-        "votesForRazem":990
+        "votesForRazem":990,
+		"countyID": 66100
     },
     {
         "id":66201,
-        "name":"Chełm",
+        "name": "Chełm",
         "numberOfVotes":27585,
         "votesForNL":885,
         "votesForKKP":2404,
@@ -34123,11 +34131,12 @@
         "votesForKonfederacja":3742,
         "votesForPIS":8876,
         "votesForKO":8869,
-        "votesForRazem":800
+        "votesForRazem":800,
+		"countyID": 66200
     },
     {
         "id":66301,
-        "name":"Lublin",
+        "name": "Lublin",
         "numberOfVotes":178695,
         "votesForNL":7087,
         "votesForKKP":10836,
@@ -34135,11 +34144,12 @@
         "votesForKonfederacja":23247,
         "votesForPIS":53115,
         "votesForKO":57141,
-        "votesForRazem":10939
+        "votesForRazem":10939,
+		"countyID": 66300
     },
     {
         "id":66401,
-        "name":"Zamość",
+        "name": "Zamość",
         "numberOfVotes":28815,
         "votesForNL":903,
         "votesForKKP":2523,
@@ -34147,7 +34157,8 @@
         "votesForKonfederacja":3678,
         "votesForPIS":10242,
         "votesForKO":8531,
-        "votesForRazem":901
+        "votesForRazem":901,
+		"countyID": 66400
     },
     {
         "id":86101,
@@ -34159,7 +34170,8 @@
         "votesForKonfederacja":6852,
         "votesForPIS":12069,
         "votesForKO":23927,
-        "votesForRazem":2168
+        "votesForRazem":2168,
+		"countyID": 86100
     },
     {
         "id":86201,
@@ -34171,7 +34183,8 @@
         "votesForKonfederacja":8062,
         "votesForPIS":13197,
         "votesForKO":33969,
-        "votesForRazem":3736
+        "votesForRazem":3736,
+		"countyID": 86200
     },
     {
         "id":106101,
@@ -34183,7 +34196,8 @@
         "votesForKonfederacja":33413,
         "votesForPIS":72342,
         "votesForKO":150722,
-        "votesForRazem":22889
+        "votesForRazem":22889,
+		"countyID": 106100
     },
     {
         "id":106201,
@@ -34195,11 +34209,12 @@
         "votesForKonfederacja":4526,
         "votesForPIS":10805,
         "votesForKO":11713,
-        "votesForRazem":1464
+        "votesForRazem":1464,
+		"countyID": 106200
     },
     {
         "id":106301,
-        "name":"Skierniewice",
+        "name": "Skierniewice",
         "numberOfVotes":24716,
         "votesForNL":1100,
         "votesForKKP":1266,
@@ -34207,11 +34222,12 @@
         "votesForKonfederacja":3055,
         "votesForPIS":7370,
         "votesForKO":8498,
-        "votesForRazem":1268
+        "votesForRazem":1268,
+		"countyID": 106300
     },
     {
         "id":126101,
-        "name":"Kraków",
+        "name": "Kraków",
         "numberOfVotes":465148,
         "votesForNL":28219,
         "votesForKKP":19142,
@@ -34219,7 +34235,8 @@
         "votesForKonfederacja":56765,
         "votesForPIS":101000,
         "votesForKO":163093,
-        "votesForRazem":49483
+        "votesForRazem":49483,
+		"countyID": 126100
     },
     {
         "id":126201,
@@ -34231,11 +34248,12 @@
         "votesForKonfederacja":6411,
         "votesForPIS":16385,
         "votesForKO":11229,
-        "votesForRazem":1366
+        "votesForRazem":1366,
+		"countyID": 126200
     },
     {
         "id":126301,
-        "name":"Tarnów",
+        "name": "Tarnów",
         "numberOfVotes":52804,
         "votesForNL":1743,
         "votesForKKP":3224,
@@ -34243,11 +34261,12 @@
         "votesForKonfederacja":6776,
         "votesForPIS":17101,
         "votesForKO":17310,
-        "votesForRazem":2188
+        "votesForRazem":2188,
+		"countyID": 126300
     },
     {
         "id":146101,
-        "name":"Ostrołęka",
+        "name": "Ostrołęka",
         "numberOfVotes":24231,
         "votesForNL":821,
         "votesForKKP":1827,
@@ -34255,11 +34274,12 @@
         "votesForKonfederacja":3463,
         "votesForPIS":8868,
         "votesForKO":6621,
-        "votesForRazem":794
+        "votesForRazem":794,
+		"countyID": 146100
     },
     {
         "id":146201,
-        "name":"Płock",
+        "name": "Płock",
         "numberOfVotes":57351,
         "votesForNL":2639,
         "votesForKKP":2869,
@@ -34267,11 +34287,12 @@
         "votesForKonfederacja":6386,
         "votesForPIS":18162,
         "votesForKO":20777,
-        "votesForRazem":2260
+        "votesForRazem":2260,
+		"countyID": 146200
     },
     {
         "id":146301,
-        "name":"Radom",
+        "name": "Radom",
         "numberOfVotes":101442,
         "votesForNL":3730,
         "votesForKKP":6403,
@@ -34279,11 +34300,12 @@
         "votesForKonfederacja":14174,
         "votesForPIS":35411,
         "votesForKO":30365,
-        "votesForRazem":3970
+        "votesForRazem":3970,
+		"countyID": 146300
     },
     {
         "id":146401,
-        "name":"Siedlce",
+        "name": "Siedlce",
         "numberOfVotes":40085,
         "votesForNL":1291,
         "votesForKKP":3392,
@@ -34291,11 +34313,12 @@
         "votesForKonfederacja":5935,
         "votesForPIS":14006,
         "votesForKO":10791,
-        "votesForRazem":1483
+        "votesForRazem":1483,
+		"countyID": 146400
     },
     {
         "id":166101,
-        "name":"Opole",
+        "name": "Opole",
         "numberOfVotes":64441,
         "votesForNL":3045,
         "votesForKKP":2862,
@@ -34303,11 +34326,12 @@
         "votesForKonfederacja":7273,
         "votesForPIS":11453,
         "votesForKO":30168,
-        "votesForRazem":3677
+        "votesForRazem":3677,
+		"countyID": 166100
     },
     {
         "id":186101,
-        "name":"Krosno",
+        "name": "Krosno",
         "numberOfVotes":22333,
         "votesForNL":658,
         "votesForKKP":1726,
@@ -34315,11 +34339,12 @@
         "votesForKonfederacja":2882,
         "votesForPIS":7917,
         "votesForKO":6726,
-        "votesForRazem":735
+        "votesForRazem":735,
+		"countyID": 186100
     },
     {
         "id":186201,
-        "name":"Przemyśl",
+        "name": "Przemyśl",
         "numberOfVotes":26417,
         "votesForNL":834,
         "votesForKKP":2040,
@@ -34327,11 +34352,12 @@
         "votesForKonfederacja":3427,
         "votesForPIS":9185,
         "votesForKO":8379,
-        "votesForRazem":767
+        "votesForRazem":767,
+		"countyID": 186200
     },
     {
         "id":186301,
-        "name":"Rzeszów",
+        "name": "Rzeszów",
         "numberOfVotes":110152,
         "votesForNL":4109,
         "votesForKKP":7503,
@@ -34339,11 +34365,12 @@
         "votesForKonfederacja":18252,
         "votesForPIS":31142,
         "votesForKO":32316,
-        "votesForRazem":5996
+        "votesForRazem":5996,
+		"countyID": 186300
     },
     {
         "id":186401,
-        "name":"Tarnobrzeg",
+        "name": "Tarnobrzeg",
         "numberOfVotes":21275,
         "votesForNL":827,
         "votesForKKP":1445,
@@ -34351,11 +34378,12 @@
         "votesForKonfederacja":2717,
         "votesForPIS":6949,
         "votesForKO":7214,
-        "votesForRazem":661
+        "votesForRazem":661,
+		"countyID": 186400
     },
     {
         "id":206101,
-        "name":"Białystok",
+        "name": "Białystok",
         "numberOfVotes":150207,
         "votesForNL":5884,
         "votesForKKP":8717,
@@ -34363,7 +34391,8 @@
         "votesForKonfederacja":22378,
         "votesForPIS":42440,
         "votesForKO":44987,
-        "votesForRazem":8499
+        "votesForRazem":8499,
+		"countyID": 206100
     },
     {
         "id":206201,
@@ -34375,11 +34404,12 @@
         "votesForKonfederacja":4244,
         "votesForPIS":11226,
         "votesForKO":7241,
-        "votesForRazem":872
+        "votesForRazem":872,
+		"countyID": 206200
     },
     {
         "id":206301,
-        "name":"Suwałki",
+        "name": "Suwałki",
         "numberOfVotes":31206,
         "votesForNL":1067,
         "votesForKKP":2224,
@@ -34387,11 +34417,12 @@
         "votesForKonfederacja":5106,
         "votesForPIS":9650,
         "votesForKO":9201,
-        "votesForRazem":1119
+        "votesForRazem":1119,
+		"countyID": 206300
     },
     {
         "id":226101,
-        "name":"Gdańsk",
+        "name": "Gdańsk",
         "numberOfVotes":280994,
         "votesForNL":17730,
         "votesForKKP":9311,
@@ -34399,11 +34430,12 @@
         "votesForKonfederacja":29180,
         "votesForPIS":49002,
         "votesForKO":121757,
-        "votesForRazem":26448
+        "votesForRazem":26448,
+		"countyID": 226100
     },
     {
         "id":226201,
-        "name":"Gdynia",
+        "name": "Gdynia",
         "numberOfVotes":133966,
         "votesForNL":7623,
         "votesForKKP":5045,
@@ -34411,11 +34443,12 @@
         "votesForKonfederacja":13246,
         "votesForPIS":23332,
         "votesForKO":62516,
-        "votesForRazem":9587
+        "votesForRazem":9587,
+		"countyID": 226200
     },
     {
         "id":226301,
-        "name":"Słupsk",
+        "name": "Słupsk",
         "numberOfVotes":40749,
         "votesForNL":1862,
         "votesForKKP":2105,
@@ -34423,11 +34456,12 @@
         "votesForKonfederacja":4549,
         "votesForPIS":9305,
         "votesForKO":18188,
-        "votesForRazem":1671
+        "votesForRazem":1671,
+		"countyID": 226300
     },
     {
         "id":226401,
-        "name":"Sopot",
+        "name": "Sopot",
         "numberOfVotes":21030,
         "votesForNL":1175,
         "votesForKKP":687,
@@ -34435,7 +34469,8 @@
         "votesForKonfederacja":1484,
         "votesForPIS":3690,
         "votesForKO":10578,
-        "votesForRazem":1647
+        "votesForRazem":1647,
+		"countyID": 226400
     },
     {
         "id":246101,
@@ -34447,11 +34482,12 @@
         "votesForKonfederacja":11714,
         "votesForPIS":22599,
         "votesForKO":32358,
-        "votesForRazem":4246
+        "votesForRazem":4246,
+		"countyID": 246100
     },
     {
         "id":246201,
-        "name":"Bytom",
+        "name": "Bytom",
         "numberOfVotes":63081,
         "votesForNL":3168,
         "votesForKKP":3149,
@@ -34459,11 +34495,12 @@
         "votesForKonfederacja":9134,
         "votesForPIS":15964,
         "votesForKO":22627,
-        "votesForRazem":3490
+        "votesForRazem":3490,
+		"countyID": 246200
     },
     {
         "id":246301,
-        "name":"Chorzów",
+        "name": "Chorzów",
         "numberOfVotes":45249,
         "votesForNL":2567,
         "votesForKKP":2181,
@@ -34471,11 +34508,12 @@
         "votesForKonfederacja":5755,
         "votesForPIS":9496,
         "votesForKO":17884,
-        "votesForRazem":2832
+        "votesForRazem":2832,
+		"countyID": 246300
     },
     {
         "id":246401,
-        "name":"Częstochowa",
+        "name": "Częstochowa",
         "numberOfVotes":105165,
         "votesForNL":4522,
         "votesForKKP":5565,
@@ -34483,7 +34521,8 @@
         "votesForKonfederacja":12312,
         "votesForPIS":28988,
         "votesForKO":40895,
-        "votesForRazem":4640
+        "votesForRazem":4640,
+		"countyID": 246400
     },
     {
         "id":246501,
@@ -34495,11 +34534,12 @@
         "votesForKonfederacja":6573,
         "votesForPIS":13674,
         "votesForKO":23322,
-        "votesForRazem":2930
+        "votesForRazem":2930,
+		"countyID": 246500
     },
     {
         "id":246601,
-        "name":"Gliwice",
+        "name": "Gliwice",
         "numberOfVotes":87155,
         "votesForNL":4110,
         "votesForKKP":4208,
@@ -34507,7 +34547,8 @@
         "votesForKonfederacja":11237,
         "votesForPIS":19071,
         "votesForKO":35588,
-        "votesForRazem":4999
+        "votesForRazem":4999,
+		"countyID": 246600
     },
     {
         "id":246701,
@@ -34519,11 +34560,12 @@
         "votesForKonfederacja":6637,
         "votesForPIS":14684,
         "votesForKO":10608,
-        "votesForRazem":1669
+        "votesForRazem":1669,
+		"countyID": 246700
     },
     {
         "id":246801,
-        "name":"Jaworzno",
+        "name": "Jaworzno",
         "numberOfVotes":43482,
         "votesForNL":2073,
         "votesForKKP":2637,
@@ -34531,11 +34573,12 @@
         "votesForKonfederacja":6277,
         "votesForPIS":11713,
         "votesForKO":14996,
-        "votesForRazem":2118
+        "votesForRazem":2118,
+		"countyID": 246800
     },
     {
         "id":246901,
-        "name":"Katowice",
+        "name": "Katowice",
         "numberOfVotes":149989,
         "votesForNL":8504,
         "votesForKKP":6019,
@@ -34543,11 +34586,12 @@
         "votesForKonfederacja":16924,
         "votesForPIS":32606,
         "votesForKO":61137,
-        "votesForRazem":10923
+        "votesForRazem":10923,
+		"countyID": 246900
     },
     {
         "id":247001,
-        "name":"Mysłowice",
+        "name": "Mysłowice",
         "numberOfVotes":35550,
         "votesForNL":1586,
         "votesForKKP":1859,
@@ -34555,7 +34599,8 @@
         "votesForKonfederacja":5466,
         "votesForPIS":10010,
         "votesForKO":11824,
-        "votesForRazem":1708
+        "votesForRazem":1708,
+		"countyID": 247000
     },
     {
         "id":247101,
@@ -34567,7 +34612,8 @@
         "votesForKonfederacja":3382,
         "votesForPIS":7725,
         "votesForKO":8006,
-        "votesForRazem":1267
+        "votesForRazem":1267,
+		"countyID": 247100
     },
     {
         "id":247201,
@@ -34579,11 +34625,12 @@
         "votesForKonfederacja":9716,
         "votesForPIS":16875,
         "votesForKO":19381,
-        "votesForRazem":3073
+        "votesForRazem":3073,
+		"countyID": 247200
     },
     {
         "id":247301,
-        "name":"Rybnik",
+        "name": "Rybnik",
         "numberOfVotes":64906,
         "votesForNL":2584,
         "votesForKKP":3552,
@@ -34591,7 +34638,8 @@
         "votesForKonfederacja":11003,
         "votesForPIS":19290,
         "votesForKO":20239,
-        "votesForRazem":2840
+        "votesForRazem":2840,
+		"countyID": 247300
     },
     {
         "id":247401,
@@ -34603,11 +34651,12 @@
         "votesForKonfederacja":3866,
         "votesForPIS":6905,
         "votesForKO":11745,
-        "votesForRazem":1623
+        "votesForRazem":1623,
+		"countyID": 247400
     },
     {
         "id":247501,
-        "name":"Sosnowiec",
+        "name": "Sosnowiec",
         "numberOfVotes":94846,
         "votesForNL":5595,
         "votesForKKP":4708,
@@ -34615,7 +34664,8 @@
         "votesForKonfederacja":10562,
         "votesForPIS":22683,
         "votesForKO":38625,
-        "votesForRazem":5078
+        "votesForRazem":5078,
+		"countyID": 247500
     },
     {
         "id":247601,
@@ -34627,11 +34677,12 @@
         "votesForKonfederacja":2791,
         "votesForPIS":5081,
         "votesForKO":7297,
-        "votesForRazem":1164
+        "votesForRazem":1164,
+		"countyID": 247600
     },
     {
         "id":247701,
-        "name":"Tychy",
+        "name": "Tychy",
         "numberOfVotes":62932,
         "votesForNL":2782,
         "votesForKKP":3105,
@@ -34639,11 +34690,12 @@
         "votesForKonfederacja":8480,
         "votesForPIS":16927,
         "votesForKO":22792,
-        "votesForRazem":3342
+        "votesForRazem":3342,
+		"countyID": 247700
     },
     {
         "id":247801,
-        "name":"Zabrze",
+        "name": "Zabrze",
         "numberOfVotes":66392,
         "votesForNL":3210,
         "votesForKKP":3489,
@@ -34651,7 +34703,8 @@
         "votesForKonfederacja":10190,
         "votesForPIS":16439,
         "votesForKO":23523,
-        "votesForRazem":3607
+        "votesForRazem":3607,
+		"countyID": 247800
     },
     {
         "id":247901,
@@ -34663,11 +34716,12 @@
         "votesForKonfederacja":5528,
         "votesForPIS":9228,
         "votesForKO":9230,
-        "votesForRazem":1368
+        "votesForRazem":1368,
+		"countyID": 247900
     },
     {
         "id":266101,
-        "name":"Kielce",
+        "name": "Kielce",
         "numberOfVotes":97317,
         "votesForNL":3840,
         "votesForKKP":6054,
@@ -34675,11 +34729,12 @@
         "votesForKonfederacja":11091,
         "votesForPIS":28527,
         "votesForKO":35554,
-        "votesForRazem":4296
+        "votesForRazem":4296,
+		"countyID": 266100
     },
     {
         "id":286101,
-        "name":"Elbląg",
+        "name": "Elbląg",
         "numberOfVotes":53111,
         "votesForNL":2344,
         "votesForKKP":2352,
@@ -34687,11 +34742,12 @@
         "votesForKonfederacja":6345,
         "votesForPIS":13243,
         "votesForKO":22262,
-        "votesForRazem":2108
+        "votesForRazem":2108,
+		"countyID": 286100
     },
     {
         "id":286201,
-        "name":"Olsztyn",
+        "name": "Olsztyn",
         "numberOfVotes":87754,
         "votesForNL":4855,
         "votesForKKP":3659,
@@ -34699,11 +34755,12 @@
         "votesForKonfederacja":10731,
         "votesForPIS":18455,
         "votesForKO":36278,
-        "votesForRazem":5873
+        "votesForRazem":5873,
+		"countyID": 286200
     },
     {
         "id":306101,
-        "name":"Kalisz",
+        "name": "Kalisz",
         "numberOfVotes":47569,
         "votesForNL":1973,
         "votesForKKP":2441,
@@ -34711,11 +34768,12 @@
         "votesForKonfederacja":5294,
         "votesForPIS":11997,
         "votesForKO":20023,
-        "votesForRazem":2177
+        "votesForRazem":2177,
+		"countyID": 306100
     },
     {
         "id":306201,
-        "name":"Konin",
+        "name": "Konin",
         "numberOfVotes":34496,
         "votesForNL":1600,
         "votesForKKP":1655,
@@ -34723,11 +34781,12 @@
         "votesForKonfederacja":3852,
         "votesForPIS":10725,
         "votesForKO":12741,
-        "votesForRazem":1433
+        "votesForRazem":1433,
+		"countyID": 306200
     },
     {
         "id":306301,
-        "name":"Leszno",
+        "name": "Leszno",
         "numberOfVotes":29944,
         "votesForNL":1703,
         "votesForKKP":1288,
@@ -34735,11 +34794,12 @@
         "votesForKonfederacja":3677,
         "votesForPIS":5852,
         "votesForKO":13383,
-        "votesForRazem":1412
+        "votesForRazem":1412,
+		"countyID": 306300
     },
     {
         "id":306401,
-        "name":"Poznań",
+        "name": "Poznań",
         "numberOfVotes":303699,
         "votesForNL":20865,
         "votesForKKP":9862,
@@ -34747,11 +34807,12 @@
         "votesForKonfederacja":29425,
         "votesForPIS":46324,
         "votesForKO":134124,
-        "votesForRazem":32927
+        "votesForRazem":32927,
+		"countyID": 306400
     },
     {
         "id":326101,
-        "name":"Koszalin",
+        "name": "Koszalin",
         "numberOfVotes":51839,
         "votesForNL":2678,
         "votesForKKP":2428,
@@ -34759,11 +34820,12 @@
         "votesForKonfederacja":6010,
         "votesForPIS":11025,
         "votesForKO":23379,
-        "votesForRazem":1924
+        "votesForRazem":1924,
+		"countyID": 326100
     },
     {
         "id":326201,
-        "name":"Szczecin",
+        "name": "Szczecin",
         "numberOfVotes":193668,
         "votesForNL":9815,
         "votesForKKP":8574,
@@ -34771,7 +34833,8 @@
         "votesForKonfederacja":20633,
         "votesForPIS":41891,
         "votesForKO":83816,
-        "votesForRazem":12308
+        "votesForRazem":12308,
+		"countyID": 326200
     },
     {
         "id":326301,
@@ -34783,6 +34846,7 @@
         "votesForKonfederacja":2294,
         "votesForPIS":4316,
         "votesForKO":9756,
-        "votesForRazem":743
+        "votesForRazem":743,
+		"countyID": 326300
     }
 ]
