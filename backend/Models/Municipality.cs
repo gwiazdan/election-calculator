@@ -1,4 +1,5 @@
-namespace election_calculator_backend.Models {
+namespace election_calculator_backend.Models
+{
     public class Municipality
     {
         public int Id { get; set; }
