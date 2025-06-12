@@ -1,13 +1,12 @@
 FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
 WORKDIR /app
-EXPOSE 80
+ENV ASPNETCORE_URLS=http://+:5225
+EXPOSE 5225
 
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /src
-COPY ElectionResultsApi.csproj ./
-RUN dotnet restore "ElectionResultsApi.csproj"
 COPY . .
-WORKDIR /src
+RUN dotnet restore "ElectionResultsApi.csproj"
 RUN dotnet build "ElectionResultsApi.csproj" -c Release -o /app/build
 
 FROM build AS publish
