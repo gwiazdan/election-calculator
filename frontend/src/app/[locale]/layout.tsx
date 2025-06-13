@@ -6,7 +6,6 @@ import TopNavbar from '@/components/main/TopNavbar';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { routing } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
-import { pingAPI, getMunicipalityResults } from '@/store/api/ApiFetcher';
 
 const geistSans = Geist({
     variable: '--font-geist-sans',
