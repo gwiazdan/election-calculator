@@ -1,10 +1,22 @@
-services:
+services: 
   frontend:
+    container_name: frontend
     build:
       context: ./frontend
       dockerfile: Dockerfile
+      target: dev # Użyj etapu 'dev' z Dockerfile
     ports:
       - "3000:3000"
+    volumes:
+      # Montuj kod źródłowy dla hot reload
+      - ./frontend:/app
+      # Możesz dodać nazwany volume dla node_modules, aby przyspieszyć kolejne buildy
+      # - frontend_node_modules:/app/node_modules
+    environment:
+      - NODE_ENV=development
+      - NEXT_PUBLIC_API_URL=http://backend:5225 # Przykład zmiennej środowiskowej dla API
+    # Upewnij się, że skrypt "dev" w package.json to "next dev --turbopack"
+    command: ["npm", "run", "dev"]
     depends_on:
       - backend
 
@@ -17,8 +29,10 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     volumes:
-      #- ./backend:/app
+      - ./backend:/app
       - backend_data:/app/Data
+    command: ["dotnet", "watch", "run", "--urls", "http://+:5225"]
 
 volumes:
   backend_data:
+  # frontend_node_modules: # Odkomentuj, jeśli używasz nazwanego volume dla node_modules

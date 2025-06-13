@@ -1,11 +1,12 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
-import Navbar from '../../components/main/SideNavbar';
-import TopNavbar from '../../components/main/TopNavbar';
+import SideNavbar from '@/components/main/SideNavbar';
+import TopNavbar from '@/components/main/TopNavbar';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { routing } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
+import { pingAPI, getMunicipalityResults } from '@/store/api/ApiFetcher';
 
 const geistSans = Geist({
     variable: '--font-geist-sans',
@@ -40,7 +41,7 @@ export default async function RootLayout({
 					<link rel="icon" type="image/svg+xml" href="/appLogo.svg" />
 				</head>
 				<body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-					<Navbar />
+					<SideNavbar />
 					<div className='md:ml-[120px] ml-[100px]'>
 						<TopNavbar />
 						{children}

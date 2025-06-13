@@ -14,7 +14,7 @@ import '@/components/main/navbar.css';
 
 const iconClasses = 'inline-block w-8 h-8';
 
-export default function Navbar() {
+export default function SideNavbar() {
     const t = useTranslations('SideNavbar');
     const navItems = [
         {
