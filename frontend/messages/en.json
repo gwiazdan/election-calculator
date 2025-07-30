@@ -9,5 +9,17 @@
         "sejmiks": "Regional assemblies",
         "euroElections": "European elections",
         "info": "Information"
-    }
+    },
+	"InputPanel": {
+		"party": {
+			"nl": "The Left",
+			"kkp": "Confederation of the Polish Crown",
+			"psl": "Polish People's Party",
+			"pl2050": "Poland 2050",
+			"pis": "Law and Justice",
+			"ko": "Civic Coalition",
+			"razem": "Together Party",
+			"konfederacja": "Confederation Liberty and Independence"
+		}
+	}
 }

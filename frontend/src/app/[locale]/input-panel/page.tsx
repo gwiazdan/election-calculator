@@ -1,3 +1,5 @@
+import {Panel} from "./Panel";
+
 export default function InputPanel() {
-    return <div />;
+    return <Panel />;
 }

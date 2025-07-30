@@ -1,27 +1,36 @@
-# Skrypt do uruchamiania środowiska deweloperskiego (frontend i backend)
-
-Write-Host "Uruchamianie serwera deweloperskiego dla backendu jako zadanie w tle..."
+# Uruchamianie backendu jako job w tle
+Write-Host "Uruchamianie backendu..."
 $backendDir = "D:\Projekty\Web\election-calculator\backend"
 Push-Location -Path $backendDir
 Start-Job -Name "BackendDevServer" -ScriptBlock {
-    Write-Host "Backend (job): Przechodzenie do $(Get-Location). Uruchamianie dotnet run..."
     dotnet run
 }
 Pop-Location
-Write-Host "Serwer deweloperski backendu uruchomiony jako zadanie w tle."
-Write-Host "Możesz sprawdzić jego status za pomocą polecenia 'Get-Job BackendDevServer'."
-Write-Host "Aby zobaczyć jego wyjście, użyj polecenia 'Receive-Job BackendDevServer'."
-Write-Host ""
 
-Write-Host "Uruchamianie serwera deweloperskiego dla frontendu w bieżącym oknie..."
+# Uruchamianie frontendu jako job w tle
+Write-Host "Uruchamianie frontendu..."
 $frontendDir = "D:\Projekty\Web\election-calculator\frontend"
 Push-Location -Path $frontendDir
-Write-Host "Frontend: Przechodzenie do $(Get-Location). Uruchamianie npm run dev..."
-Write-Host "To polecenie będzie działać w pierwszym planie. Naciśnij Ctrl+C, aby je zatrzymać."
-# Skrypt zatrzyma się tutaj, aż npm run dev zostanie zatrzymane
-npm run dev
+Start-Job -Name "FrontendDevServer" -ScriptBlock {
+    npm run dev
+}
 Pop-Location
 
-Write-Host "Serwer deweloperski frontendu zatrzymany."
-Write-Host "Skrypt zakończony. Naciśnij Enter, aby wyjść."
+Write-Host "Backend i frontend uruchomione jako zadania w tle."
+Write-Host "Naciśnij Enter, aby zakończyć pracę i zatrzymać serwery."
 Read-Host
+
+Write-Host "Zatrzymywanie zadań i procesów..."
+
+# Zatrzymujemy joby
+Get-Job | Where-Object { $_.Name -in @("BackendDevServer", "FrontendDevServer") } | ForEach-Object {
+    if ($_.State -eq "Running") {
+        Stop-Job -Job $_
+        # Poczekaj na zatrzymanie zadania
+        while ($_.State -eq "Running") {
+            Start-Sleep -Milliseconds 200
+            $_ = Get-Job -Id $_.Id
+        }
+    }
+    Remove-Job -Job $_
+}

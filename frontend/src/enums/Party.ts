@@ -6,5 +6,6 @@ export enum Party {
 	PIS = "pis",
 	KO = "ko",
 	RAZEM = "razem",
-	MN = "mn"
+	MN = "mn",
+	OTHERS = "others"
 }

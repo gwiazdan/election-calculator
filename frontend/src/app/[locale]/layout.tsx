@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import SideNavbar from '@/components/main/SideNavbar';
 import TopNavbar from '@/components/main/TopNavbar';
+import DataInitializer from '@/components/DataInitializer';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { routing } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
@@ -40,6 +41,7 @@ export default async function RootLayout({
 					<link rel="icon" type="image/svg+xml" href="/appLogo.svg" />
 				</head>
 				<body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+					<DataInitializer />
 					<SideNavbar />
 					<div className='md:ml-[120px] ml-[100px]'>
 						<TopNavbar />

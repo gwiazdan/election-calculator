@@ -9,5 +9,17 @@
         "sejmiks": "Sejmiki",
         "euroElections": "Wybory europejskie",
         "info": "Informacje"
-    }
+    },
+	"InputPanel": {
+		"party": {
+			"nl": "Lewica",
+			"kkp": "Konfederacja Korony Polskiej",
+			"psl": "Polskie Stronnictwo Ludowe",
+			"pl2050": "Polska 2050",
+			"pis": "Prawo i Sprawiedliwość",
+			"ko": "Koalicja Obywatelska",
+			"razem": "Partia Razem",
+			"konfederacja": "Konfederacja Wolność i Niepodległość"
+		}
+	}
 }

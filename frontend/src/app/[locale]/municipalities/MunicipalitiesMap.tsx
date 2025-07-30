@@ -1,24 +1,28 @@
 'use client';
-import React, {useContext, useEffect, useRef, useState} from "react";
+import React, {useEffect, useRef, useState} from "react";
 import svgPanZoom from "svg-pan-zoom";
-import {calculateColor} from "../../../ts/CalculateColor.ts";
-import {ResultsContext} from "../Contexts/ElectionsResultsContext.tsx";
-
+import { useResultsStore } from "@/store/ResultsStore";
 
 const MunicipalitiesMap: React.FC = () => {
-    const {municipalitiesResults} = useContext(ResultsContext);
+    const {calculateResults, origResults} = useResultsStore();
     const [activeMunicipality, setActiveMunicipality] = useState<string | null>(null);
-    //const {mapOption, isSinglePartyEnabled, selectedParty} = useOptions();
-    //const [loading, setLoading] = useState<boolean>(true);
+	const [loading, setLoading] = useState<boolean>(true);
     const svgRef = useRef<SVGSVGElement>(null);
 
+    useEffect(() => {
+		const loadAndCalculate = async () => {
+            setLoading(true);
+            const results = await calculateResults();
+			console.log(origResults);
+            setLoading(false);
+			console.log(results);
+        };
+    
+		if (origResults.length > 0) {
+			loadAndCalculate();
+		}
+    }, [calculateResults, origResults]);
 
-    useEffect(()=>{
-        console.log(municipalitiesResults);
-        if (svgRef.current && municipalitiesResults) {
-            // logika mapy
-        }
-    }, [municipalitiesResults, activeMunicipality, mapOption, isSinglePartyEnabled, selectedParty]);
 
     const setPathColor = (path: Element, color: string) => {
         path.setAttribute('fill', color);
@@ -30,6 +34,7 @@ const MunicipalitiesMap: React.FC = () => {
         path.classList.remove('noParty');
         path.classList.remove('selected');
     }
+	/*
     useEffect(() => {
         if (svgRef.current) {
             const panZoomInstance = svgPanZoom(svgRef.current, {
@@ -47,7 +52,7 @@ const MunicipalitiesMap: React.FC = () => {
             return () => panZoomInstance.destroy();
         }
     }, []);
-
+	*/
     const handleClick = (event: React.MouseEvent<SVGElement>) => {
         const selectedConstituency = event.currentTarget.id;
         setActiveMunicipality(selectedConstituency);
