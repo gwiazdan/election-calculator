@@ -13,27 +13,29 @@ export type ResultsState = {
 };
 
 const refResults: Record<Party, number> = {
-  [Party.NL]: 0.0423,
-  [Party.KKP]: 0.0634,
-  [Party.TD]: 0.0499,
-  [Party.KONFEDERACJA]: 0.1481,
-  [Party.PIS]: 0.2954,
-  [Party.KO]: 0.3136,
-  [Party.RAZEM]: 0.0486,
-  [Party.MN]: 0.00005,
-  [Party.OTHERS]: 0.03815
+  [Party.NL]: 0.04102,
+  [Party.KKP]: 0.061323,
+  [Party.PL2050]: 0.048451,
+  [Party.KONFEDERACJA]: 0.14381,
+  [Party.PIS]: 0.288167,
+  [Party.KO]: 0.308465,
+  [Party.RAZEM]: 0.048022,
+  [Party.MN]: 0.001198,
+  [Party.PSL]: 0.023173,
+  [Party.OTHERS]: 0.036371
 };
 
 const newResults: Record<Party, number> = {
-	   [Party.NL]: 4.23,
-	   [Party.KKP]: 6.34,
-	   [Party.TD]: 4.99,
+	   [Party.NL]: 4.1,
+	   [Party.KKP]: 6.13,
+	   [Party.PL2050]: 4.84,
 	   [Party.KONFEDERACJA]: 19.81,
-	   [Party.PIS]: 24.54,
-	   [Party.KO]: 31.36,
-	   [Party.RAZEM]: 4.86,
-	   [Party.MN]: 0.005,
-	   [Party.OTHERS]: 3.815
+	   [Party.PIS]: 23.88,
+	   [Party.KO]: 30.84,
+	   [Party.RAZEM]: 4.8,
+	   [Party.MN]: 0.1198,
+	     [Party.PSL]: 2.3173,
+	   [Party.OTHERS]: 3.6371
 };
 
 export const resultsStore = createStore<ResultsState>((set) => ({

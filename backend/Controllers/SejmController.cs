@@ -72,30 +72,35 @@ namespace election_calculator_backend.Controllers
 
                     // Sumowanie głosów: gminy + terytoria
                     int totalVotes =
-                        relatedMunicipalities.Sum(m => m.NumberOfVotes)
-                        + relatedTerritories.Sum(t => t.NumberOfVotes);
+                        relatedMunicipalities.Sum(m => m.Total)
+                        + relatedTerritories.Sum(t => t.Total);
                     int votesForNL =
-                        relatedMunicipalities.Sum(m => m.VotesForNL)
-                        + relatedTerritories.Sum(t => t.VotesForNL);
+                        relatedMunicipalities.Sum(m => m.NL)
+                        + relatedTerritories.Sum(t => t.NL);
                     int votesForKKP =
-                        relatedMunicipalities.Sum(m => m.VotesForKKP)
-                        + relatedTerritories.Sum(t => t.VotesForKKP);
-                    int votesForTD =
-                        relatedMunicipalities.Sum(m => m.VotesForTD)
-                        + relatedTerritories.Sum(t => t.VotesForTD);
+                        relatedMunicipalities.Sum(m => m.KKP)
+                        + relatedTerritories.Sum(t => t.KKP);
+                    int votesForPl2050 =
+                        relatedMunicipalities.Sum(m => m.Pl2050)
+                        + relatedTerritories.Sum(t => t.Pl2050);
                     int votesForKonf =
-                        relatedMunicipalities.Sum(m => m.VotesForKonfederacja)
-                        + relatedTerritories.Sum(t => t.VotesForKonfederacja);
+                        relatedMunicipalities.Sum(m => m.Konf)
+                        + relatedTerritories.Sum(t => t.Konf);
                     int votesForPIS =
-                        relatedMunicipalities.Sum(m => m.VotesForPIS)
-                        + relatedTerritories.Sum(t => t.VotesForPIS);
+                        relatedMunicipalities.Sum(m => m.PIS)
+                        + relatedTerritories.Sum(t => t.PIS);
                     int votesForKO =
-                        relatedMunicipalities.Sum(m => m.VotesForKO)
-                        + relatedTerritories.Sum(t => t.VotesForKO);
+                        relatedMunicipalities.Sum(m => m.KO)
+                        + relatedTerritories.Sum(t => t.KO);
                     int votesForRazem =
-                        relatedMunicipalities.Sum(m => m.VotesForRazem)
-                        + relatedTerritories.Sum(t => t.VotesForRazem);
-                    int votesForMN = relatedMunicipalities.Sum(m => m.VotesForMN ?? 0); // tylko gminy mają MN
+                        relatedMunicipalities.Sum(m => m.Razem)
+                        + relatedTerritories.Sum(t => t.Razem);
+                    int votesForMN = relatedMunicipalities.Sum(m => m.MN) 
+                        + relatedTerritories.Sum(t => t.MN ?? 0); // terytoria też mogą mieć MN (nullable)
+                    int votesForPSL = relatedMunicipalities.Sum(m => m.PSL)
+                        + relatedTerritories.Sum(t => t.PSL);
+                    int votesForOthers = relatedMunicipalities.Sum(m => m.Others)
+                        + relatedTerritories.Sum(t => t.Others);
 
                     return new
                     {
@@ -107,12 +112,14 @@ namespace election_calculator_backend.Controllers
                         {
                             NL = votesForNL,
                             KKP = votesForKKP,
-                            TD = votesForTD,
+                            Pl2050 = votesForPl2050,
                             Konfederacja = votesForKonf,
                             PIS = votesForPIS,
                             KO = votesForKO,
                             Razem = votesForRazem,
                             MN = votesForMN,
+                            PSL = votesForPSL,
+                            Others = votesForOthers,
                         },
                     };
                 })

@@ -46,17 +46,19 @@ namespace election_calculator_backend.Controllers
                         Id = county.Id,
                         Name = county.Name,
                         VoivodeshipID = county.VoivodeshipID,
-                        TotalVotes = relatedMunicipalities.Sum(m => m.NumberOfVotes),
+                        TotalVotes = relatedMunicipalities.Sum(m => m.Total),
                         Votes = new
                         {
-                            NL = relatedMunicipalities.Sum(m => m.VotesForNL),
-                            KKP = relatedMunicipalities.Sum(m => m.VotesForKKP),
-                            TD = relatedMunicipalities.Sum(m => m.VotesForTD),
-                            Konfederacja = relatedMunicipalities.Sum(m => m.VotesForKonfederacja),
-                            PIS = relatedMunicipalities.Sum(m => m.VotesForPIS),
-                            KO = relatedMunicipalities.Sum(m => m.VotesForKO),
-                            Razem = relatedMunicipalities.Sum(m => m.VotesForRazem),
-                            MN = relatedMunicipalities.Sum(m => m.VotesForMN ?? 0),
+                            NL = relatedMunicipalities.Sum(m => m.NL),
+                            KKP = relatedMunicipalities.Sum(m => m.KKP),
+                            Pl2050 = relatedMunicipalities.Sum(m => m.Pl2050),
+                            Konfederacja = relatedMunicipalities.Sum(m => m.Konf),
+                            PIS = relatedMunicipalities.Sum(m => m.PIS),
+                            KO = relatedMunicipalities.Sum(m => m.KO),
+                            Razem = relatedMunicipalities.Sum(m => m.Razem),
+                            MN = relatedMunicipalities.Sum(m => m.MN),
+                            PSL = relatedMunicipalities.Sum(m => m.PSL),
+                            Others = relatedMunicipalities.Sum(m => m.Others),
                         },
                     };
                 })

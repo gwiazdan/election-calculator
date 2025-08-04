@@ -33,25 +33,27 @@ namespace election_calculator_backend.Controllers
                 return BadRequest("Deserialization failed or data is null.");
 
             var result = dataModel
-                .Select(m => new MunicipalityDto
-                {
-                    Id = m.Id,
-                    Name = m.Name,
-                    TotalVotes = m.NumberOfVotes,
-                    CountyID = m.CountyID,
-                    Votes = new VotesDto
-                    {
-                        NL = m.VotesForNL,
-                        KKP = m.VotesForKKP,
-                        TD = m.VotesForTD,
-                        Konfederacja = m.VotesForKonfederacja,
-                        PIS = m.VotesForPIS,
-                        KO = m.VotesForKO,
-                        Razem = m.VotesForRazem,
-                        MN = m.VotesForMN,
-                    },
-                })
-                .ToList();
+				.Select(m => new MunicipalityDto
+				{
+					Id = m.Id,
+					Name = m.Name,
+					TotalVotes = m.Total,
+					CountyID = m.CountyID,
+					Votes = new VotesDto
+					{
+						NL = m.NL,
+						KKP = m.KKP,
+						Pl2050 = m.Pl2050,
+						Konfederacja = m.Konf,
+						PIS = m.PIS,
+						KO = m.KO,
+						Razem = m.Razem,
+						Others = m.Others,
+						PSL = m.PSL,
+						MN = m.MN
+					}
+				})
+				.ToList();
 
             return Ok(result);
         }
