@@ -2,7 +2,7 @@ namespace election_calculator_backend.DTOs
 {
     public class VotesDto
 	{
-		public int NL { get; set; }
+		public int LEW { get; set; }
 		public int KKP { get; set; }
 		public int Pl2050 { get; set; }
 		public int Konfederacja { get; set; }

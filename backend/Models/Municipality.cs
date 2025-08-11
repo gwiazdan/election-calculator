@@ -5,7 +5,7 @@ namespace election_calculator_backend.Models
 		public int Id { get; set; }
 		public string Name { get; set; }
 		public int Total { get; set; }
-		public int NL { get; set; }
+		public int LEW { get; set; }
 		public int KKP { get; set; }
 		public int Pl2050 { get; set; }
 		public int Konf { get; set; }

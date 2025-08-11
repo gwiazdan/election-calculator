@@ -49,7 +49,7 @@ namespace election_calculator_backend.Controllers
                         TotalVotes = relatedMunicipalities.Sum(m => m.Total),
                         Votes = new
                         {
-                            NL = relatedMunicipalities.Sum(m => m.NL),
+                            LEW = relatedMunicipalities.Sum(m => m.LEW),
                             KKP = relatedMunicipalities.Sum(m => m.KKP),
                             Pl2050 = relatedMunicipalities.Sum(m => m.Pl2050),
                             Konfederacja = relatedMunicipalities.Sum(m => m.Konf),

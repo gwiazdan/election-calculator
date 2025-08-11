@@ -7,6 +7,12 @@ export type Results = {
 	votes: Votes;
 }
 
+export type ResultColors = {
+	id: number;
+	name: string;
+	colors: Record<Party, string>;
+}
+
 
 const apiPort = '5225';
 

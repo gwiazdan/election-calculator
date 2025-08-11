@@ -1,5 +1,5 @@
 export enum Party {
-    NL = "nl",
+    LEW = "lew",
     KKP = "kkp",
     PL2050 = "pl2050",
     KONFEDERACJA = "konfederacja",

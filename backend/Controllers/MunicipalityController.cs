@@ -41,7 +41,7 @@ namespace election_calculator_backend.Controllers
 					CountyID = m.CountyID,
 					Votes = new VotesDto
 					{
-						NL = m.NL,
+						LEW = m.LEW,
 						KKP = m.KKP,
 						Pl2050 = m.Pl2050,
 						Konfederacja = m.Konf,

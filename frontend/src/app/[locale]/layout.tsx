@@ -7,6 +7,8 @@ import DataInitializer from '@/components/DataInitializer';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { routing } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
+import 'leaflet/dist/leaflet.css';
+
 
 const geistSans = Geist({
     variable: '--font-geist-sans',

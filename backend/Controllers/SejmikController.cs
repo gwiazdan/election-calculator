@@ -69,9 +69,9 @@ namespace election_calculator_backend.Controllers
                     int totalVotes =
                         relatedMunicipalities.Sum(m => m.Total)
                         + relatedTerritories.Sum(t => t.Total);
-                    int votesForNL =
-                        relatedMunicipalities.Sum(m => m.NL)
-                        + relatedTerritories.Sum(t => t.NL);
+                    int votesForLEW =
+                        relatedMunicipalities.Sum(m => m.LEW)
+                        + relatedTerritories.Sum(t => t.LEW);
                     int votesForKKP =
                         relatedMunicipalities.Sum(m => m.KKP)
                         + relatedTerritories.Sum(t => t.KKP);
@@ -107,7 +107,7 @@ namespace election_calculator_backend.Controllers
                         TotalVotes = totalVotes,
                         Votes = new
                         {
-                            NL = votesForNL,
+                            LEW = votesForLEW,
                             KKP = votesForKKP,
                             Pl2050 = votesForPl2050,
                             Konfederacja = votesForKonf,
